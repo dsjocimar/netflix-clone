@@ -20,8 +20,8 @@
         <div class="container">
             <h1 class="logo">NETFLIX</h1>
             <nav>
-                <a href="#">Início</a>
-                <a href="#">Filmes</a>
+                <a href="#filme-principal">Início</a>
+                <a href="#carrousel-filmes">Filmes</a>
                 <a href="#">Séries</a>
                 <a href="#">Informações</a>
             </nav>
@@ -29,15 +29,17 @@
     </header>
     
     <main>
-        <div class="filme-principal">
+        <div id="filme-principal">
             <div class="container">
                 <h3 class="titulo">O Senhor dos Anéis: O Retorno do Rei <span>(2003)</span></h3>
                 <p class="descricao">O confronto final entre as forças do bem e do mal que lutam pelo controle do futuro da Terra Média se aproxima. Sauron planeja um grande ataque a Minas Tirith, capital de Gondor, o que faz com que Gandalf e Pippin partam para o local na intenção de ajudar a resistência. Um exército é reunido por Theoden em Rohan, em mais uma tentativa de deter as forças de Sauron. Enquanto isso, Frodo, Sam e Gollum seguem sua viagem rumo à Montanha da Perdição para destruir o anel.</p>
                 <div class="botoes">
-                    <button role="button" class="botao">
-                        <i class="fa-solid fa-play"></i>
-                        Assistir
-                    </button>
+                    <a href="https://youtu.be/p4MYyQbIcwM" target="_blank">
+                        <button role="button" class="botao">
+                            <i class="fa-solid fa-play"></i>
+                            Assistir
+                        </button>
+                    </a>
                     <button role="button" class="botao">
                         <i class="fa-solid fa-circle-info"></i>
                         Mais informações
@@ -47,33 +49,75 @@
         </div>
     </main>
 
-    <div class="carrousel-filmes">
+    <div id="carrousel-filmes" class="container">
         <!--<p class="descricao">Adicionados recentemente</p>-->
+        <p class="container">Adicionados recentemente</p>
         <div class="owl-carousel owl-theme">
-            <div class="item">
-                <img class="box-filme" src="fotos/encanto.jpg" alt="encanto">
-            </div>
-            <div class="item">
-                <img class="box-filme" src="fotos/batman.jpg" alt="batman">
-            </div>
-            <div class="item">
-                <img class="box-filme" src="fotos/homem-aranha-nwh.jpg" alt="homem-aranha" >
-            </div>
-            <div class="item">
-                <img class="box-filme" src="fotos/moonfall.jpg" alt="moonfall" >
-            </div>
-            <div class="item">
-                <img class="box-filme" src="fotos/red.jpg" alt="red">
-            </div>
-            <div class="item">
-                <img class="box-filme" src="fotos/sonic.jpg" alt="sonic">
-            </div>
+            <a href="https://youtu.be/zRMicKd9IH8" target="_blank" rel="external">
+                <div class="item">
+                    <img class="box-filme" src="fotos/encanto.jpg" alt="encanto">
+                </div>
+            </a>
+            <a href="https://youtu.be/eXsAkkPGHho" target="_blank" rel="external">
+                <div class="item">
+                    <img class="box-filme" src="fotos/batman.jpg" alt="batman">
+                </div>
+            </a>
+            <a href="https://youtu.be/FDNNHh7TRN0" target="_blank" rel="external">
+                <div class="item">
+                    <img class="box-filme" src="fotos/homem-aranha-nwh.jpg" alt="homem-aranha">
+                </div>
+            </a>
+            <a href="https://youtu.be/l4sDvkgh9vI" target="_blank" rel="external">
+                <div class="item">
+                    <img class="box-filme" src="fotos/moonfall.jpg" alt="moonfall" >
+                </div>
+            </a>
+            <a href="https://youtu.be/YeQoQNZq7wg" target="_blank" rel="external">
+                <div class="item">
+                    <img class="box-filme" src="fotos/red.jpg" alt="red">
+                </div>
+            </a>
+            <a href="https://youtu.be/FtSL2wCTzhw" target="_blank" rel="external">
+                <div class="item">
+                    <img class="box-filme" src="fotos/sonic.jpg" alt="sonic">
+                </div>
+            </a>
         </div>
     </div>
 
-    <footer>
-
-    </footer>
+    <div id="carrousel-filmes" class="container">
+        <!--<p class="descricao">Adicionados recentemente</p>-->
+        <p class="container">Séries</p>
+        <div class="owl-carousel owl-theme">
+            <a href="https://youtu.be/DFa0evfX96s" target="_blank" rel="external">
+                <div class="item">
+                    <img class="box-filme" src="fotos/cavaleiro-da-lua.jpg" alt="cavaleiro da lua">
+                </div>
+            </a>
+            <a href="https://youtu.be/M0HnDtn_9Hc" target="_blank" rel="external">
+                <div class="item">
+                    <img class="box-filme" src="fotos/halo.jpg" alt="halo">
+                </div>
+            </a>
+            <a href="https://youtu.be/Nu5z3AT2jv8" target="_blank" rel="external">
+                <div class="item">
+                    <img class="box-filme" src="fotos/lucifer.jpg" alt="lucifer" >
+                </div>
+            </a>
+            <a href="https://youtu.be/l4sDvkgh9vI" target="_blank" rel="external">
+                <div class="item">
+                    <img class="box-filme" src="fotos/moonfall.jpg" alt="moonfall" >
+                </div>
+            </a>
+            <div class="item">
+                <img class="box-filme" src="fotos/peaky-blinders.jpg" alt="red">
+            </div>
+            <div class="item">
+                <img class="box-filme" src="fotos/the-walking-dead.jpg" alt="sonic">
+            </div>
+        </div>
+    </div>
 
     <!--scripts-->
     <script src="https://kit.fontawesome.com/88c3d70f39.js" crossorigin="anonymous"></script>
