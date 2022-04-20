@@ -19,13 +19,6 @@ header .container {
     justify-content: space-between;
 }
 
-header .logo {
-    margin-left: 5px;
-    color: var(--vermelho);
-    font-family: 'Arial black';
-    font-size: 40px;
-}
-
 nav > a {
     text-decoration: none;
     color: #aaa;
